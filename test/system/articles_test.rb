@@ -17,7 +17,6 @@ class ArticlesTest < ApplicationSystemTestCase
     fill_in "Description", with: @article.description
     fill_in "Name", with: @article.name
     fill_in "Price", with: @article.price
-    fill_in "Type", with: @article.type
     fill_in "User", with: @article.user_id
     click_on "Create Article"
 
@@ -32,7 +31,6 @@ class ArticlesTest < ApplicationSystemTestCase
     fill_in "Description", with: @article.description
     fill_in "Name", with: @article.name
     fill_in "Price", with: @article.price
-    fill_in "Type", with: @article.type
     fill_in "User", with: @article.user_id
     click_on "Update Article"
 

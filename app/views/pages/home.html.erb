@@ -7,7 +7,6 @@
 <table>
   <thead>
   <tr>
-    <th>Type</th>
     <th>Price</th>
     <th>User</th>
     <th>Name</th>
@@ -19,7 +18,6 @@
   <tbody>
   <% @articles.each do |article| %>
     <tr>
-      <td><%= article.type %></td>
       <td><%= article.price %></td>
       <td><%= article.user_id %></td>
       <td><%= article.name %></td>
