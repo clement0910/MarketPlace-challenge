@@ -10,6 +10,7 @@
     "autoprefixer": "^10.4.2",
     "daisyui": "^2.0.6",
     "postcss": "^8.4.6",
+    "stimulus": "^3.0.1",
     "tailwindcss": "^3.0.23",
     "turbolinks": "^5.2.0",
     "webpack": "^4.46.0",
